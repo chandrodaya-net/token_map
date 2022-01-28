@@ -1,12 +1,21 @@
 JUNO = {
     'source_token_file': "/home/dau/workspace/network/juno/junoswap-asset-list/ibc_assets.json",
     'target_token_file': "/home/dau/workspace/dauTT/token_map/target/juno.json",
+    'juno_token_json': {
+      'id': 'juno',
+      "sourceChainId": "juno-1",
+      "sourceChain": "juno",
+      'chainDenom': 'ujuno',
+      'chainToViewConversionFactor': 1e-6,
+      'viewDenom': 'JUNO',
+      'icon': "coins/tokens/token-juno.svg",
+    },
     'source_target_map' : {
                     'id': 'id',
                     'symbol' : 'viewDenom',
                      'juno_denom' : 'chainDenom', 
                      'decimals' :  'chainToViewConversionFactor',
-                     'chain_id' :  'chainIdSource'
+                     'chain_id' :  'sourceChainId'
          },
     'chain_source_map' : {
                     'cosmos': 'cosmos',

@@ -19,6 +19,7 @@ def transform_json():
     source_target_map = config.JUNO['source_target_map']
     token_image_path_map = config.JUNO['token_image_path_map']
     chain_source_map = config.JUNO['chain_source_map']
+    juno_token_json = config.JUNO['juno_token_json']
     result_json = []
     for token_json in get_juno_token():
         new_token_json = {}
@@ -26,13 +27,14 @@ def transform_json():
             new_key = source_target_map[key]
             value = token_json[key]
             if key == 'decimals':
-                value = "1e-{}".format(token_json[key])
+                value =  float("1e-{}".format(token_json[key]))
             new_token_json[new_key] = value
         token_image_path = token_image_path_map.get(token_json['id'], 'None')
         new_token_json['icon'] = token_image_path
-        new_token_json['chainSource'] = chain_source_map.get(token_json['id'], 'None')
+        new_token_json['sourceChain'] = chain_source_map.get(token_json['id'], 'None')
         result_json.append(new_token_json)
-    
+     
+    result_json.append(juno_token_json)
     return sorted(result_json, key = lambda i: i['id'])
  
 def dump_transform_json():
@@ -43,8 +45,8 @@ def dump_transform_json():
     
 if __name__ == "__main__":
     # pretty_print(get_juno_token())
-    pretty_print(transform_json())
-    # dump_transform_json()
+    # pretty_print(transform_json())
+    dump_transform_json()
     
 
 
