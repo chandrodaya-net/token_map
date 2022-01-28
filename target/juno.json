@@ -1,0 +1,90 @@
+[
+    {
+        "chainDenom": "ibc/DFC6F33796D5D0075C5FB54A4D7B8E76915ACF434CB1EE2A1BA0BB8334E17C3A",
+        "chainToViewConversionFactor": 6,
+        "chainsource": "akashnet-2",
+        "icon": "coins/ibc/ibc-akt.png",
+        "id": "akash-network",
+        "viewDenom": "AKT"
+    },
+    {
+        "chainDenom": "ibc/008BFD000A10BCE5F0D4DD819AE1C1EC2942396062DABDD6AE64A655ABC7085B",
+        "chainToViewConversionFactor": 6,
+        "chainsource": "bitsong-2b",
+        "icon": "coins/ibc/ibc-btsg.png",
+        "id": "bitsong",
+        "viewDenom": "BTSG"
+    },
+    {
+        "chainDenom": "ibc/D836B191CDAE8EDACDEBE7B64B504C5E06CC17C6A072DAF278F9A96DF66F6241",
+        "chainToViewConversionFactor": 6,
+        "chainsource": "chihuahua-1",
+        "icon": "coins/ibc/ibc-huahua.png",
+        "id": "chihuahua-token",
+        "viewDenom": "HUAHUA"
+    },
+    {
+        "chainDenom": "ibc/946AD96F278770521526D7283F58268DA2F6ACDDE40324A9D1C86811D78C86A0",
+        "chainToViewConversionFactor": 6,
+        "chainsource": "comdex-1",
+        "icon": "coins/ibc/ibc-cmdx.png",
+        "id": "comdex",
+        "viewDenom": "CMDX"
+    },
+    {
+        "chainDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "chainToViewConversionFactor": 6,
+        "chainsource": "cosmoshub-4",
+        "icon": "coins/ibc/ibc-atom.png",
+        "id": "cosmos",
+        "viewDenom": "ATOM"
+    },
+    {
+        "chainDenom": "ibc/6842C591DC4588411A565C9FF650FB15A17DFE3F0A43201E8141E4D14B8D171A",
+        "chainToViewConversionFactor": 6,
+        "chainsource": "dig-1",
+        "icon": "coins/ibc/ibc-dig.png",
+        "id": "dig",
+        "viewDenom": "DIG"
+    },
+    {
+        "chainDenom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "chainToViewConversionFactor": 6,
+        "chainsource": "osmosis-1",
+        "icon": "coins/ibc/ibc-osmo.png",
+        "id": "osmosis",
+        "viewDenom": "OSMO"
+    },
+    {
+        "chainDenom": "ibc/7455B3F2F2737906BACF4AE980069A4CAB7C7F9FDAABAEFBA439DF037AEC5898",
+        "chainToViewConversionFactor": 6,
+        "chainsource": "core-1",
+        "icon": "coins/ibc/ibc-xprt.png",
+        "id": "persistence",
+        "viewDenom": "XPRT"
+    },
+    {
+        "chainDenom": "ibc/F6B367385300865F654E110976B838502504231705BAC0849B0651C226385885",
+        "chainToViewConversionFactor": 6,
+        "chainsource": "stargaze-1",
+        "icon": "coins/ibc/ibc-stars.png",
+        "id": "stargaze",
+        "viewDenom": "STARS"
+    },
+    {
+        "chainDenom": "ibc/8F865D9760B482FF6254EDFEC1FF2F1273B9AB6873A7DE484F89639795D73D75",
+        "chainToViewConversionFactor": 6,
+        "chainsource": "columbus-5",
+        "icon": "coins/ibc/ibc-luna.png",
+        "id": "terra-luna",
+        "viewDenom": "LUNA"
+    },
+    {
+        "chainDenom": "ibc/2DA4136457810BCB9DAAB620CA67BC342B17C3C70151CA70490A170DF7C9CB27",
+        "chainToViewConversionFactor": 6,
+        "chainsource": "columbus-5",
+        "icon": "coins/ibc/ibc-ust.png",
+        "id": "terrausd",
+        "viewDenom": "UST"
+    }
+]
