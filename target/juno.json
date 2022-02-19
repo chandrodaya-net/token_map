@@ -1,12 +1,73 @@
 [
     {
+        "chainDenom": "neta",
+        "chainToViewConversionFactor": 1e-06,
+        "icon": "coins/juno/cw20/neta.svg",
+        "id": "juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
+        "sourceChain": "juno",
+        "sourceChainId": "juno-1",
+        "type": "CW20",
+        "viewDenom": "NETA"
+    },
+    {
+        "chainDenom": "hulc",
+        "chainToViewConversionFactor": 1e-06,
+        "icon": "coins/juno/cw20/hulcat.png",
+        "id": "juno1pshrvuw5ng2q4nwcsuceypjkp48d95gmcgjdxlus2ytm4k5kvz2s7t9ldx",
+        "sourceChain": "juno",
+        "sourceChainId": "juno-1",
+        "type": "CW20",
+        "viewDenom": "HULC"
+    },
+    {
+        "chainDenom": "bsn",
+        "chainToViewConversionFactor": 0.001,
+        "icon": "None",
+        "id": "juno1rqsmf8vetkgjxmqdmm0c68hzksj6vcrkjf8j7gpwffs7a5vvpxwquptfyp",
+        "sourceChain": "juno",
+        "sourceChainId": "juno-1",
+        "type": "CW20",
+        "viewDenom": "BSN"
+    },
+    {
+        "chainDenom": "canlab",
+        "chainToViewConversionFactor": 0.001,
+        "icon": "coins/juno/cw20/custom/cannalabs.png",
+        "id": "juno1vn38rzq0wc7zczp4dhy0h5y5kxh2jjzeahwe30c9cc6dw3lkyk5qn5rmfa",
+        "sourceChain": "juno",
+        "sourceChainId": "juno-1",
+        "type": "CW20",
+        "viewDenom": "CANLAB"
+    },
+    {
+        "chainDenom": "tuck",
+        "chainToViewConversionFactor": 0.001,
+        "icon": "coins/juno/cw20/custom/tuckermint.png",
+        "id": "juno1wurfx334prlceydmda3aecldn2xh4axhqtly05n8gptgl69ee7msrewg6y",
+        "sourceChain": "juno",
+        "sourceChainId": "juno-1",
+        "type": "CW20",
+        "viewDenom": "TUCK"
+    },
+    {
         "chainDenom": "ibc/DFC6F33796D5D0075C5FB54A4D7B8E76915ACF434CB1EE2A1BA0BB8334E17C3A",
         "chainToViewConversionFactor": 1e-06,
         "icon": "coins/ibc/ibc-akt.png",
         "id": "akash-network",
         "sourceChain": "akash",
         "sourceChainId": "akashnet-2",
+        "type": "IBC",
         "viewDenom": "AKT"
+    },
+    {
+        "chainDenom": "ibc/0CB5D60E57FD521FA39D11E3E410144389010AC5EF5F292BC9BDD832FA2FDBF9",
+        "chainToViewConversionFactor": 1e-06,
+        "icon": "coins/ibc/ibc-bcna.png",
+        "id": "bitcanna",
+        "sourceChain": "bitcanna",
+        "sourceChainId": "bitcanna-1",
+        "type": "IBC",
+        "viewDenom": "BCNA"
     },
     {
         "chainDenom": "ibc/008BFD000A10BCE5F0D4DD819AE1C1EC2942396062DABDD6AE64A655ABC7085B",
@@ -15,6 +76,7 @@
         "id": "bitsong",
         "sourceChain": "bitsong",
         "sourceChainId": "bitsong-2b",
+        "type": "IBC",
         "viewDenom": "BTSG"
     },
     {
@@ -24,6 +86,7 @@
         "id": "chihuahua-token",
         "sourceChain": "chihuahua",
         "sourceChainId": "chihuahua-1",
+        "type": "IBC",
         "viewDenom": "HUAHUA"
     },
     {
@@ -33,6 +96,7 @@
         "id": "comdex",
         "sourceChain": "comdex",
         "sourceChainId": "comdex-1",
+        "type": "IBC",
         "viewDenom": "CMDX"
     },
     {
@@ -42,6 +106,7 @@
         "id": "cosmos",
         "sourceChain": "cosmos",
         "sourceChainId": "cosmoshub-4",
+        "type": "IBC",
         "viewDenom": "ATOM"
     },
     {
@@ -51,16 +116,8 @@
         "id": "dig",
         "sourceChain": "dig",
         "sourceChainId": "dig-1",
+        "type": "IBC",
         "viewDenom": "DIG"
-    },
-    {
-        "chainDenom": "ujuno",
-        "chainToViewConversionFactor": 1e-06,
-        "icon": "coins/tokens/token-juno.svg",
-        "id": "juno",
-        "sourceChain": "juno",
-        "sourceChainId": "juno-1",
-        "viewDenom": "JUNO"
     },
     {
         "chainDenom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
@@ -69,6 +126,7 @@
         "id": "osmosis",
         "sourceChain": "osmosis",
         "sourceChainId": "osmosis-1",
+        "type": "IBC",
         "viewDenom": "OSMO"
     },
     {
@@ -78,7 +136,18 @@
         "id": "persistence",
         "sourceChain": "persistence",
         "sourceChainId": "core-1",
+        "type": "IBC",
         "viewDenom": "XPRT"
+    },
+    {
+        "chainDenom": "ibc/B55B08EF3667B0C6F029C2CC9CAA6B00788CF639EBB84B34818C85CBABA33ABD",
+        "chainToViewConversionFactor": 1e-06,
+        "icon": "coins/ibc/ibc-scrt.png",
+        "id": "secret",
+        "sourceChain": "secret",
+        "sourceChainId": "secret-4",
+        "type": "IBC",
+        "viewDenom": "SCRT"
     },
     {
         "chainDenom": "ibc/F6B367385300865F654E110976B838502504231705BAC0849B0651C226385885",
@@ -87,6 +156,7 @@
         "id": "stargaze",
         "sourceChain": "stargaze",
         "sourceChainId": "stargaze-1",
+        "type": "IBC",
         "viewDenom": "STARS"
     },
     {
@@ -96,6 +166,7 @@
         "id": "terra-luna",
         "sourceChain": "terra",
         "sourceChainId": "columbus-5",
+        "type": "IBC",
         "viewDenom": "LUNA"
     },
     {
@@ -105,6 +176,17 @@
         "id": "terrausd",
         "sourceChain": "terra",
         "sourceChainId": "columbus-5",
+        "type": "IBC",
         "viewDenom": "UST"
+    },
+    {
+        "chainDenom": "ujuno",
+        "chainToViewConversionFactor": 1e-06,
+        "icon": "coins/tokens/token-juno.svg",
+        "id": "juno",
+        "sourceChain": "juno",
+        "sourceChainId": "juno-1",
+        "type": "STAKE",
+        "viewDenom": "JUNO"
     }
 ]
